@@ -1,0 +1,70 @@
+.InitialPage-container {
+  margin: 0px;
+  width: 100%;
+  height: 100vh;
+  background-image: url(../Resources/Bg-initial.jpg);
+  background-position: 0 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+
+  /*   background: rgb(20, 20, 20);
+  text-align: center;
+  height: 100vh;
+  overflow: hidden; */
+}
+/*
+.InitialPage-text-container {
+  display: flex;
+  justify-content: center;
+  color: white;
+  align-items: center;
+  border: 25px white solid;
+  width: 50%;
+  height: fit-content;
+  padding: 0vh 10vh;
+
+}
+
+.InitialPage-text-container > h1 {
+  font-size: 12vw;
+}
+ */
+
+.svg-wrapper {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  margin: 0 auto;
+  width: 320px;
+}
+.shape {
+  stroke-dasharray: 140 540;
+  stroke-dashoffset: -474;
+  stroke-width: 8px;
+  fill: transparent;
+  stroke: #19f6e8;
+  border-bottom: 5px solid black;
+  transition: stroke-width 1s, stroke-dashoffset 1s, stroke-dasharray 1s;
+}
+.text-inSVG > h1 {
+  font-family: "Roboto Condensed";
+  font-size: 22px;
+  line-height: 32px;
+  letter-spacing: 8px;
+  color: #fff;
+  top: -48px;
+  position: absolute;
+  font-size: 15vw;
+  z-index: 50;
+}
+.svg-wrapper:hover .shape {
+  stroke-width: 2px;
+  stroke-dashoffset: 0;
+  stroke-dasharray: 760;
+}

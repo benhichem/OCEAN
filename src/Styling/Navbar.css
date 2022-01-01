@@ -1,0 +1,43 @@
+@font-face {
+  font-family: Logo;
+  src: url(https://fonts.googleapis.com/css2?family=Licorice&display=swap);
+}
+.navbar-container {
+  width: 100%;
+  height: 6vh;
+  color: white;
+  background-color: #111;
+  display: flex;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+.nav-bar-logo-container {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2vh;
+  font-family: Logo;
+}
+.nav-bar-links-cotnaiern {
+  flex: 5;
+}
+.nav-bar-signup-login-contianer {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.8em;
+  font-weight: 100;
+}
+.nav-bar-signup-login-contianer > h3 > span {
+  cursor: pointer;
+}
+.nav-bar-signup-login-contianer > h3 > span:hover {
+  color: rgb(24, 24, 189);
+  text-decoration: underline;
+}
+@media only screen and (max-width: 768px) {
+  .nav-bar-links-cotnaiern {
+    display: none;
+  }
+}

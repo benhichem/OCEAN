@@ -1,0 +1,14 @@
+.ErroPage-container {
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(29, 29, 29);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.ErroPage-container > h1 {
+  font-size: 15vh;
+  margin: 0;
+}
